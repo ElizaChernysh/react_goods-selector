@@ -91,7 +91,7 @@ export class App extends React.Component<{}, State> {
               className={classNames(
                 'App__item',
                 {
-                  active: (this.state.selectedGoods.includes(item)),
+                  active: (selectedGoods.includes(item)),
                 },
               )}
               key={item}
